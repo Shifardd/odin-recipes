@@ -1,3 +1,3 @@
 # odin-recipes
 
-Build simple recipe page using HTML
+Build simple recipe page using HTML and CSS
