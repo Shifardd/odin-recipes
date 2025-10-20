@@ -124,3 +124,49 @@ hr {
   border: none;
   background-color: var(--greenish-color);
 }
+
+@media (max-width: 767px) {
+  body {
+    padding: 2rem 0;
+  }
+  #title {
+    font-size: 3.5rem;
+    margin: 5rem 0 2rem;
+  }
+  .recipe-list a {
+    font-size: 1.25rem;
+    margin: 0;
+    text-align: center !important;
+  }
+
+  .light-bg {
+    padding: 3rem 1rem;
+  }
+  a.go-home {
+    padding: 5px 10px;
+    font-size: 0.8rem;
+  }
+  a.go-home:hover {
+    padding: 5px 10px;
+    font-size: 0.8rem;
+  }
+  #recipe-name {
+    font-size: 2.5rem;
+  }
+  img {
+    width: 80%;
+  }
+  .description-title, .ingredients-title, .steps-title {
+    font-size: 1.8rem !important; 
+    margin: 1.5rem 0;
+  }
+  .description {
+    margin: 1rem;
+    text-align: center;
+  }
+  .ingredients-list, .steps-list {
+    margin: 0.5rem 1rem;
+    text-align:justify;
+  }
+
+}
